@@ -46,28 +46,33 @@
     <h2>Conference Program</h2>
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
-            <td class="date" rowspan="3">
-                9:00am
+            <td class="date" rowspan="4">
+            9:00am
             </td>
             <td class="title">
-                Parsimonious and Tractable RNNs for Dynamical Systems Reconstruction
+            Parsimonious and Tractable RNNs for Dynamical Systems Reconstruction
            </td>
         </tr>
         <tr>
             <td class="speaker">
-               Daniel Durstewitz (Central Institute of Mental Health Mannheim and Interdisciplinary Center for Scientific Computing at Heidelberg University)
+            Daniel Durstewitz (Central Institute of Mental Health Mannheim and Interdisciplinary Center for Scientific Computing at Heidelberg University)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Rather than hand-crafting computational theories of neural function, recent progress in scientific machine learning (ML) and AI suggests that we may be able to infer dynamical-computational models directly from neurophysiological and behavioral data. This is called dynamical systems reconstruction (DSR), the learning of generative surrogate models of the underlying dynamics from time series observations. For gaining neuro-scientific insight, DSR models need to be mathematically tractable and biologically interpretable. I will first introduce almost-linear RNNs (AL-RNNs), which achieve topologically minimal piecewise-linear reconstructions of observed dynamical systems, using as few nonlinearities as necessary. I will then cover efficient algorithms for analyzing the topological structure of the state spaces of trained (AL-)RNNs, obtaining all their fixed points, cycles, and un-/stable manifolds. Finally, I will discuss recent DSR foundation models based on AL-RNNs in a mixture-of-experts architecture, enabling zero-shot inference, and their applications in neuroscience.
+            Rather than hand-crafting computational theories of neural function, recent progress in scientific machine learning (ML) and AI suggests that we may be able to infer dynamical-computational models directly from neurophysiological and behavioral data. This is called dynamical systems reconstruction (DSR), the learning of generative surrogate models of the underlying dynamics from time series observations. For gaining neuro-scientific insight, DSR models need to be mathematically tractable and biologically interpretable. I will first introduce almost-linear RNNs (AL-RNNs), which achieve topologically minimal piecewise-linear reconstructions of observed dynamical systems, using as few nonlinearities as necessary. I will then cover efficient algorithms for analyzing the topological structure of the state spaces of trained (AL-)RNNs, obtaining all their fixed points, cycles, and un-/stable manifolds. Finally, I will discuss recent DSR foundation models based on AL-RNNs in a mixture-of-experts architecture, enabling zero-shot inference, and their applications in neuroscience.
            </td>
         </tr>
+        <tr>
+        <td class="bio">
+            Daniel Durstewitz studied computer science and psychology in Berlin, did his Ph.D. in computational neuroscience in Bochum, and a postdoc in the Computational Neurobiology Lab (T. Sejnowski) at the Salk Institute, La Jolla. After returning to Germany, he founded a junior group on computational neuroscience before moving to a Reader (associate professorship) position in Plymouth, UK. Since 2012 he is full professor and head of the Dept. of Theoretical Neuroscience at the Central Institute of Mental Health Mannheim and Interdisciplinary Center for Scientific Computing at Heidelberg University. His work is centered on scientific machine learning & neuro-AI from a dynamical systems angle.
+        </td>
+    </tr>
     </table>
 
      <table id="PUTSPEAKERNAMEHERE">
         <tr>
-            <td class="date" rowspan="3">
+            <td class="date" rowspan="4">
                 9:30am
             </td>
             <td class="title">
@@ -84,11 +89,16 @@
             Deep brain stimulation (DBS) of the subcallosal cingulate cortex (SCC) shows promise for treating treatment-resistant depression (TRD), with large trials testing its efficacy. However, significant challenges remain during clinical management of patients undergoing SCC DBS, including stimulation adjustment and adjunctive treatments. Current gold standard assessments of depression severity are highly susceptible to factors beyond depression, such as external stressors, confounding clinical decision-making. This challenge underscores the need for objective brain-based biomarkers to inform clinical decisions. Novel bidirectional DBS devices with the capability to capture local field potential (LFP) from targeted brain regions have enabled longitudinal tracking of changes in brain activity, resulting in unique clinical datasets of brain and behavior measurements. However, this presents a unique challenge in identifying biomarkers where dimensionality of data can be large, and labels based on behavior are either unreliable or scarce. To address this, we utilize latent space models based on variational autoencoders to identify biomarkers that are interpretable, generalizable, and reflect clinically relevant changes. We demonstrate changes in LFP can track changes in depressive state using a supervised learning approach and a low-dimensional representation of features relevant to classification, identified using generative causal explainer, an xAI approach, can track changes in depressive state. thus serving as a biomarker. This work represents a critical step toward integrating xAI with neurotechnology, offering new hope for objective and actionable biomarkers in psychiatric care.
             </td>
         </tr>
+         <tr>
+         <td class="bio">
+             Sankar Alagapan is a research faculty member at Georgia Tech's School of Electrical and Computer Engineering, where he co-directs the Structured Information for Precision Neuroengineering Lab (SIPLab). He earned his Ph.D. in Biomedical Engineering from the University of Florida and completed postdoctoral training in Human Neuroscience at both UNC Chapel Hill and Georgia Tech. His work integrates brain stimulation and data science to advance clinical neuroengineering, with a particular emphasis on targeting brain dynamics in neurological and psychiatric disorders. His current projects include exploring neural dynamics and brain-body interactions during motivated behavior, as well as improving the scalability of subcallosal cingulate deep brain stimulation (DBS) for treatment-resistant depression.
+        </td>
+    </tr>
     </table>
 
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
-            <td class="date" rowspan="3">
+            <td class="date" rowspan="4">
                 10am
             </td>
             <td class="title">
@@ -105,6 +115,11 @@
             Deep neural networks have revolutionized functional neuroimaging analysis but remain "black boxes," concealing which brain mechanisms and regions drive their predictions—a critical limitation for clinical neuroscience. Here we develop and evaluate explainable AI (xAI) methods to address this challenge, using complementary simulation approaches: recurrent neural networks for controlled parameter exploration, and The Virtual Brain for biophysically realistic modeling with human and mouse connectomes. We demonstrate that xAI methods reliably identify brain features driving performance across challenging conditions, including high noise, low prevalence rates, and subtle alterations in excitatory/inhibitory (E/I) balance. This performance remains consistent across species and anatomical scales. Application to the ABIDE dataset (N=834) reveals that posterior cingulate cortex and precuneus—key nodes of the default mode network—most strongly distinguish autism from controls. The convergence between computational predictions and clinical findings provides support for E/I imbalance theories in autism while demonstrating how xAI can bridge cellular mechanisms with clinical biomarkers, establishing a framework for interpretable deep learning in clinical neuroscience.
             </td>
         </tr>
+         <tr>
+         <td class="bio">
+          My research strives to elucidate the neural mechanisms that enable the emergence of brain and behavioral dynamics and their alteration in psychiatric disorders. To do so, I leverage models of brain dynamics alongside machine learning approaches to model inference as well as neural and behavioral data analysis. My interdisciplinary background supports me in this endeavor: I studied physics at the University of Cambridge, then cognitive science and computational neuroscience at the Ecole Normale Supérieure de Paris, and completed my postdoctoral research in psychiatry at Stanford University. This year, I am excited to be starting my own lab at the Hertie Institute for AI in Brain Health at the University of Tübingen. My lab will develop personalized models of whole-brain function in psychiatric disorders to support early diagnosis and individualized treatment strategies. 
+         </td>
+    </tr>
     </table>
     <table>
         <tr>
@@ -126,7 +141,7 @@
 
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
-            <td class="date" rowspan="3">
+            <td class="date" rowspan="4">
                 10:40 am
             </td>
             <td class="title">
@@ -143,7 +158,12 @@
                 In probabilistic reversal learning, the choice option yielding reward with higher probability switches at a random trial. To perform optimally in this task, one has to accumulate evidence across trials to infer the probability that a reversal has occurred. We investigated how this reversal probability is represented in cortical neurons by analyzing the neural activity in the prefrontal cortex of monkeys and recurrent neural networks trained on the task. We found that in a neural subspace encoding reversal probability, its activity represented integration of reward outcomes as in a line attractor model. The reversal probability activity at the start of a trial was stationary, stable and consistent with the attractor dynamics. However, during the trial, the activity was associated with task-related behavior and became non-stationary, thus deviating from the line attractor. Fitting a predictive model to neural data showed that the stationary state at the trial start serves as an initial condition for launching the non-stationary activity. This suggested an extension of the line attractor model with behavior-induced non-stationary dynamics. The non-stationary trajectories were separable indicating that they can represent distinct probabilistic values. Perturbing the reversal probability activity in the recurrent neural networks biased choice outcomes demonstrating its functional significance. In sum, our results show that cortical networks encode reversal probability in stable stationary state at the start of a trial and utilize it to initiate non-stationary dynamics that accommodates task-related behavior while maintaining the reversal information.
             </td>
         </tr>
-    </table>
+          <tr>
+         <td class="bio">
+             Christopher Kim is Assistant Professor in the Department of Mathematics at Howard University in Washington, DC, USA. He received PhD from U. of Minnesota in Mathematics and performed post-doctoral research at U. of Minnesota, Bernstein Center Freiburg (Germany) and the Laboratory of Biological Modeling at the NIH. Recently, he was a Visiting Scientist at Janelia Research Campus.
+         </td>
+    </tr>
+   </table>
  <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
@@ -163,6 +183,11 @@
                 Neuromodulators are signalling chemicals in the brain, which control the emergence of adaptive learning and behaviour. Neuromodulators including dopamine, acetylcholine, serotonin and noradrenaline operate on a spectrum of spatio-temporal scales in tandem and in opposition to reconfigure functions of biological neural networks and to regulate global cognition and state transition. Although neuromodulators are important in shaping cognition, their phenomenology is yet to be fully realized in artificial neural networks (ANNs). In this talk, at the interface of neuroscience and AI (NeuroAI) I will first give an overview of the biological organizing principles of neuromodulators in adaptive cognition and highlight the competition and cooperation across neuromodulators. I will then discuss ongoing research on bio-inspired mechanisms of neuromodulatory function in ANNs and propose a computational framework to incorporate their diverse functional settings and inspire new architectures of “neuromodulation-aware” ANNs.
             </td>
         </tr>
+     <tr>
+     <td class="bio">
+     Srikanth Ramaswamy, is a Marie Curie Fellow, a Lister Prize Fellow and an Associate Professor in computational neuroscience at Newcastle University, where he directs the Neural Circuits Laboratory. He is also a Fulbright Scholar at MIT and a Theoretical Sciences Scholar at OIST. His research is at the intersection of neuroscience and AI (NeuroAI). Specifically, he is interested in the role of neuromodulators, signaling chemicals in the brain, in shaping cognition in biological neural networks and building biologically-informed neural network models. He is a founding scientist of the Blue Brain Project at Ecole Polytechnique Federale De Lausanne (EPFL). He earned his PhD in computational neuroscience at the EPFL, where he developed data-driven modelling frameworks for biologically detailed digital models of neural networks. As a scientist of colour, Dr Ramaswamy is passionately committed to promoting diversity, equity, and inclusion and is a founding member of the ALBA network, where he leads efforts to advance DEI in neuroscience, including launching the ALBA diversity podcast series in late 2020, highlighting the stories of emerging neuroscientists from underrepresented backgrounds.
+     </td>
+     </tr>
     </table>
 
     <table class="plenary">
